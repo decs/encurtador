@@ -1,9 +1,9 @@
-Encurtador
+﻿Encurtador
 ==========
 
 Encurtador de URLs em Django e MongoDB.
 
-Depend�ncias
+Dependências
 ------------
 
 - pymongo
