@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8" />
+<title>Encurtador</title>
+<script type="text/javascript" src="{{BASE_URL}}/static/jquery-1.5.min.js"></script>
+<script type="text/javascript" src="{{BASE_URL}}/static/jquery.form.js"></script>
+<script type="text/javascript" src="{{BASE_URL}}/static/aplicativo.js"></script>
+</head>
+
+<body>
+<form id="encurtador" action="#" method="post">
+{% csrf_token %}
+{{form.as_p}}
+<input type="submit" value="Encurtar" />
+</form>
+<div id="mensagem"></div>
+<ul id="urls"></ul>
+</body>
+</html>
